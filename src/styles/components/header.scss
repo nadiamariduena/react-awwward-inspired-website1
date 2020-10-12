@@ -14,7 +14,7 @@
       //https://www.ninjaunits.com/converters/pixels/rem-pixels/
 
       font-size: 1.2rem;
-      letter-spacing: 0.05rem;
+      letter-spacing: 0.5rem;
       color: $black;
       text-decoration: none;
       font-weight: 700;
@@ -22,10 +22,15 @@
   }
   .nav {
     width: 25px;
-    @include media("<=300px") {
+    @include media("<=phone") {
       width: 20px;
     }
     span {
+      margin-bottom: 0.3rem;
+      background-color: $black;
+      height: 2px;
+      width: 100%; //relative to the parent which is the width in the "nav"
+      display: block;
     }
   }
 }

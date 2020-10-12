@@ -14,7 +14,8 @@ of handling it.</p>
 
 <br>
 <br>
-<br>
+
+#### NEW STUFF I learned 1 ) \_
 
 ```javascript
 // ----------
@@ -37,10 +38,7 @@ add CUSTOM like so:
       width: etc
     }
 
-
 */
-
-
 
 // ----------
 // header.scss
@@ -66,6 +64,35 @@ header {
       font-weight: 700;
     }
   }
+```
+
+<br>
+<br>
+
+#### NEW STUFF I learned 2) \_
+
+##### SVG issues
+
+<br>
+
+```javascript
+// ----------
+// banner.js
+// ----------
+<a href="/">
+  More about us <img src={svg} alt="" />
+</a>
+
+/*
+    The problem with the following:
+
+     <a href="/">More about us <img src={svg} alt=""/>
+
+                 is that you dont have styling capabilities in terms
+                 of hover effects or anything that you want to change
+                 in svg styles
+
+                */
 ```
 
 <br>
