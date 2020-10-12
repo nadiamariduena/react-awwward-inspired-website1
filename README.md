@@ -1,7 +1,6 @@
 <div style="margin: 0 auto; width:70%; text-align:center;">
 
 <h1 style="width:80%; text-decoration:underline; text-align:center;">AWWWWWARDS inspired website</h1>
-<h5 style="width:80%; text-decoration:underline; text-align:center;">made by Wrong Akram</h5>
 
 <br>
 <br>
@@ -227,5 +226,12 @@ or Safari or Firefox on your mobile browser</h5>
 ```javascript
  height: calc(var(--vh, 1vh) * 50);
 ```
+
+<br>
+<br>
+<br>
+<br>
+
+<h5 >tutorial made by Wrong Akram</h5>
 
 </div>
