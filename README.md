@@ -23,11 +23,49 @@ of handling it.</p>
 //
 //
 $breakpoints: (
-  "phone": 425px,
+  "phone": 425px, //     *************
   "tablet": 768px,
   "desktop": 1366px,
   "LGdesktop": 1920px,
 ) !default;
+
+/*
+You are not forced to use the breakpoints above, you can also
+add CUSTOM like so:
+
+ @include media("<=300px") {
+      width: etc
+    }
+
+
+*/
+
+
+
+// ----------
+// header.scss
+// ----------
+header {
+  position: fixed;
+  width: 100%;
+  height: 128px;
+  z-index: 4;
+  @include media("<=phone") { //  *************
+    height: 96px;
+  }
+  background-color: rgb(250, 217, 203);
+  .logo {
+    a {
+        //the font-family are inside the App.scss body: html {
+      // using rem , which are relative to the html font-sizes which is equivalent to 16px
+      //https://www.ninjaunits.com/converters/pixels/rem-pixels/
+
+      font-size: 1.2rem;
+      letter-spacing: 0.05rem;
+      text-decoration: none;
+      font-weight: 700;
+    }
+  }
 ```
 
 <br>
