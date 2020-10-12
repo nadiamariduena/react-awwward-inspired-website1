@@ -71,7 +71,7 @@ header {
 
 #### NEW STUFF I learned 2) \_
 
-##### SVG issues
+##### SVG issue and solution
 
 <br>
 
@@ -84,6 +84,8 @@ header {
 </a>
 
 /*
+                                The ISSUE **
+
     The problem with the following:
 
      <a href="/">More about us <img src={svg} alt=""/>
@@ -92,7 +94,19 @@ header {
                  of hover effects or anything that you want to change
                  in svg styles
 
-                */
+
+                 THE SOLUTION **
+
+// to do the following you have to have the image in the assets folder
+
+     import { ReactComponent as RightArrow } from "../assets/arrow-right.svg";
+
+//THEN add the component inside the a tag like so:
+*/
+            <a href="/">
+              More about us
+              <RightArrow />
+            </a>
 ```
 
 <br>
