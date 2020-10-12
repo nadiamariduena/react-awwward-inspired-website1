@@ -1,8 +1,15 @@
-# AWWWWWARDS inspired website made by Wrong Akram
+### AWWWWWARDS inspired website made by Wrong Akram
+
+<br>
+<br>
+<br>
+<br>
 
 <p>I wanted to give this tutorial a try from the moment i saw this way
 of applying media queries, as until now i have been using a very generic manner
 of handling it.</p>
+
+<br>
 
 ```javascript
 $breakpoints: (
@@ -13,12 +20,22 @@ $breakpoints: (
 ) !default;
 ```
 
+<br>
+<br>
+
 <p>So even if understand many of the things you can find in the file breakpoint.scss and App.scss
 , I know that this tutorial is going to be a challenge.</p>
 
-### REMEMBER TO ASK about:
+<br>
+
+##### :baby: REMEMBER TO ASK about:
 
 ```javascript
+// ----------
+// Remember to ask your teachers about the following (note for myself)
+// ----------
+//
+//
 $media-expressions: (
   "screen": "screen",
   "print": "print",  //?????
