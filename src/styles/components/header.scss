@@ -6,7 +6,7 @@
   @include media("<=phone") {
     height: 96px;
   }
-  background-color: rgb(250, 217, 203);
+  // background-color: rgba(250, 217, 203, 0.863);
   .logo {
     a {
       //the font-family are inside the App.scss body: html {

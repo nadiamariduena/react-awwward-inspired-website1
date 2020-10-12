@@ -1,0 +1,36 @@
+.main {
+  height: 50vh; //fallback option, serves in the case a certain
+  //   browser doesnt support the next line with THE CALCULATION in the height
+
+  /*
+IMPORTANT!!
+
+he explained that in this section and device "mobile"
+you have to be careful when adding a vh , because in some mobiles you have 
+the bar on the top and bottom where you find the browser functionalities such as
+: where you search for the  URL of another website for example, i will add the
+screenshot he provided, check the READ ME file.
+
+so to solve that issue you have to use a calculation  to capture the inner height
+of the window so to adapt those 50vh depending of the size of the window
+
+*/
+  height: calc(var(--vh, 1vh) * 50);
+//   --vh is the variable you will use in the App.js as you have to set it up also there
+
+  .row {
+    h2 {
+      .line {
+        span {
+        }
+      }
+    }
+    // ---
+    .btn-row {
+      a {
+        svg {
+        }
+      }
+    }
+  }
+}
